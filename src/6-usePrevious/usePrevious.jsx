@@ -10,9 +10,7 @@ const usePrevious = (defaultValue) => {
     previousRef.current = currentRef.current;
     currentRef.current = defaultValue;
   }
-
   return previousRef.current;
-
 };
 
 export default usePrevious;
