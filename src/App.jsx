@@ -1,8 +1,9 @@
-import StorageComponent from './8-useStorage/StorageComponent.jsx';
+import ScriptComponent from "./11-useScript/ScriptComponent";
+
 
 function App() {
   return (
-    <StorageComponent />
+    <ScriptComponent />
   );
 }
 
