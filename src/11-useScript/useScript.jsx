@@ -1,4 +1,4 @@
-import useAsync from "../9-useAsync/useAsync";
+import useAsync from "../09-useAsync/useAsync";
 
 const useScript = (url) => {
   return useAsync(() => {
